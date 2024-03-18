@@ -4,7 +4,7 @@
 <div class="splash-screen container">
     <div class="row h-100">
         <div class="col-md-8 my-auto">
-            <!-- nav -->
+            {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
             <h1 class="display-1 text-uppercase lh-sm">{{ $title }}</h1>
             {{ if isset .Params "lead" }}
             <p class="lead pb-2">
