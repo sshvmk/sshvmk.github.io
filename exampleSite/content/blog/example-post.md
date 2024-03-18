@@ -1,6 +1,6 @@
 ---
 title: "Welcome To not-much"
-date: 2024-18-03
+date: 2024-03-18
 slug: "example-post"
 description: "This is an example post for not-much theme."
 keywords: ["gohugo", "hugo", "go", "blog"]
