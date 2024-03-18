@@ -2,10 +2,7 @@
 {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="author" content="{{ .Site.Param "owner" }}">
-<!-- OGP -->
-<meta property="og:type" content="website">
-<meta property="og:title" content="{{ $title }}">
+{{ template "_internal/opengraph.html" . }}
 <title>{{ $title }}</title>
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}
