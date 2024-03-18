@@ -1,0 +1,19 @@
+name = 'not-much'
+license = 'MIT'
+licenselink = 'https://github.com/imgios/not-much/LICENSE'
+description = 'A minimal blog theme for Hugo'
+
+# The home page of the theme, where the source can be found
+homepage = 'https://github.com/imgios/not-much'
+
+# If you have a running demo of the theme
+# demosite = 'https://owner.github.io/repo'
+
+# Taxonomy terms
+tags = ['blog', 'website']
+features = ['blog']
+
+# If the theme has a single author
+[author]
+  name = 'Giosuè Sulipano'
+  homepage = 'https://giosuesulipano.it'
