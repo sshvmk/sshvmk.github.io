@@ -5,3 +5,6 @@ body, html, main {
 .splash-screen {
   height: 100%;
 }
+nav a {
+  text-decoration: none;
+}
