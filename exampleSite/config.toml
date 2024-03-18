@@ -10,7 +10,7 @@ languageCode = "en-us"
 baseURL = "https://example.org/"
 
 [params]
-    author = "Your Name"
+    owner = "Your Name"
 
     # Navigation
     [[menu.main]]
