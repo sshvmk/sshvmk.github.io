@@ -11,10 +11,10 @@ Renders a menu for the given menu ID.
 {{- $menuID := .menuID }}
 
 {{- with index site.Menus $menuID }}
-  <nav>
-    <ul>
+  <nav aria-label="breadcrumb" class="small">
+    <ol class="breadcrumb fw-bold">
       {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
-    </ul>
+    </ol>
   </nav>
 {{- end }}
 
@@ -33,7 +33,7 @@ Renders a menu for the given menu ID.
         {{- $name = . }}
       {{- end }}
     {{- end }}
-    <li>
+    <li class="breadcrumb-item">
       <a
         {{- range $k, $v := $attrs }}
           {{- with $v }}
@@ -41,11 +41,11 @@ Renders a menu for the given menu ID.
           {{- end }}
         {{- end -}}
       >{{ $name }}</a>
-      {{- with .Children }}
+      <!-- {{- with .Children }}
         <ul>
           {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
         </ul>
-      {{- end }}
+      {{- end }} -->
     </li>
   {{- end }}
 {{- end }}
