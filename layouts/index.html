@@ -1,6 +1,7 @@
 {{ define "main" }}
 {{ $title := print .Site.Title " | " .Title}}
 {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+<div class="splash-screen container">
     <div class="row h-100">
         <div class="col-md-8 my-auto">
             <!-- nav -->
@@ -15,4 +16,5 @@
             </p>
         </div>
     </div>
+</div>
 {{ end }}
