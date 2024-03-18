@@ -1,5 +1,5 @@
 ---
-title: "Welcome To Codex"
+title: "Welcome To not-much"
 date: 2024-18-03
 slug: "example-post"
 description: "This is an example post for not-much theme."
