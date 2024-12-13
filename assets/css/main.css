@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap');
+
 body, html, main {
   height: 100%;
+  font-family: 'Red Hat Mono', monospace !important;
 }
 
 .splash-screen {
