@@ -5,7 +5,7 @@
     {{ range .Pages }}
     <div class="row mb-3">
       <time datetime="{{ .PublishDate }}">{{ .PublishDate | time.Format ":date_medium" }}</time>
-      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+      <h2 class="h4"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
       <!-- {{ .Summary }} -->
     </div>
     {{ end }}
