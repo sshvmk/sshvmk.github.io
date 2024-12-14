@@ -1,6 +1,9 @@
 {{ define "main" }}
   <div class="container mt-5 pt-5">
     <!-- <h1>{{ .Title }}</h1> -->
+    <div class="row">
+      {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+    </div>
     {{ .Content }}
     {{ range .Pages }}
     <div class="row mb-3">
