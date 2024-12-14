@@ -9,6 +9,10 @@ title = "not-much demo"
 languageCode = "en-us"
 baseURL = "https://example.org/"
 
+[markup]
+  [markup.highlight]
+    style = 'dracula'
+
 [params]
 
     # Navigation
