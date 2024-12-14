@@ -27,3 +27,9 @@ baseURL = "https://example.org/"
         name = "blog"
         title = "Blog"
         url = "/blog"
+
+    [[menu.main]]
+        identifier = "github"
+        name = "github"
+        title = "GitHub"
+        url = "https://github.com/imgios"
