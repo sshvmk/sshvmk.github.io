@@ -54,3 +54,9 @@ code {
 .breadcrumb-item+.breadcrumb-item::before {
   color: #6c757d !important;
 }
+
+.tags a:hover {
+  background-color: #FF1A39 !important;
+  color: #fff !important;
+  text-decoration: none !important;
+}
