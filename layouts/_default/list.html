@@ -3,6 +3,7 @@
     <!-- <h1>{{ .Title }}</h1> -->
     {{ .Content }}
     {{ range .Pages }}
+      <time datetime="{{ .PublishDate }}">{{ .PublishDate | time.Format ":date_medium" }}</time>
       <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
       {{ .Summary }}
     {{ end }}
