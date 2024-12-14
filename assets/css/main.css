@@ -37,3 +37,7 @@ a {
   margin: 24px 0 4px 0;
   font-weight: bold;
 }
+
+.breadcrumb-item+.breadcrumb-item::before {
+  color: #6c757d !important;
+}
