@@ -14,6 +14,7 @@
       {{ .Content }}
       </article>
       {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+      {{ partial "post-pagination.html" . }}
     </div>
   </div>
 {{ end }}

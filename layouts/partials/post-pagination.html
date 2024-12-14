@@ -1,0 +1,19 @@
+<div class="row">
+{{if .PrevInSection}}
+<div class="col-md">
+    <a href="{{.PrevInSection.Permalink}}">
+        <span>previous: </span>
+        <span>{{.PrevInSection.Title}}</span>
+    </a>
+</div>
+{{end}}
+
+{{if .NextInSection}}
+<div class="col-md">
+    <a href="{{.NextInSection.Permalink}}">
+        <span>next: </span>
+        <span>{{.NextInSection.Title}}</span>
+    </a>
+</div>
+{{end}}
+</div>
