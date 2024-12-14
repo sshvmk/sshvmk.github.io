@@ -3,6 +3,7 @@
 body, html, main {
   height: 100%;
   font-family: 'Red Hat Mono', monospace !important;
+  font-size: .92em;
 }
 
 .splash-screen {
