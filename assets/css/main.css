@@ -37,6 +37,10 @@ a:hover {
   }
 }
 
+code {
+  user-select: all;
+}
+
 .post article h1,
 .post article h2,
 .post article h3,
