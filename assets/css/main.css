@@ -24,11 +24,11 @@ nav a:hover, a:hover {
 
 a {
   font-weight: bold;
-  color: #D22D72 !important;
+  color: #be2967 !important;
 }
 
 a:hover {
-  color: #be2967 !important;
+  color: #D22D72 !important;
 }
 
 @media (min-width: 1200px) {
