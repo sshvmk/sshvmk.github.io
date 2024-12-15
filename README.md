@@ -124,9 +124,9 @@ copyright = "© {year}"
 
 ## Built With
 
-* [Hugo](http://www.dropwizard.io/1.0.2/docs/) - The static site generator framework
-* [Bootstrap](https://maven.apache.org/) - Free and open-source CSS library
-* [RedHat Mono Font](https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap) - Used as theme font
+* [Hugo](https://gohugo.io/) - The static site generator framework
+* [Bootstrap](https://getbootstrap.com/) - Free and open-source CSS library
+* [RedHat Mono Font](https://fonts.google.com/specimen/Red+Hat+Mono) - Used as theme font
 
 ## Contributing
 
