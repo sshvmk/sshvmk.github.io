@@ -1,12 +1,18 @@
+<a id="readme-top"></a>
+
 # Not Much
 
 `not-much` is a minimal Hugo theme that I use for my personal website. It doesn't have any fancy shortcode or useless feature.
 
 **It's basic, simple and minimal.**
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Prerequisites
 
@@ -37,6 +43,8 @@ Press Ctrl+C to stop
 
 Now you are ready to update the theme and see the changes live @ [localhost](http://localhost:1313/).
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Deployment
 
 The theme can be installed in two different ways:
@@ -54,11 +62,15 @@ The first option is quite limited as you won't be able to edit the templates if 
 
 Once done, update (or add) the `theme` parameter in your website configuration file to `theme = not-much`.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Configuration
 
 You can update the website index, menu and copyright directly in your Hugo site `config.toml`.
 
 A reference can be found in [`exampleSite/config.toml`](https://github.com/imgios/not-much/blob/dev/exampleSite/config.toml)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #### Homepage
 
@@ -71,6 +83,8 @@ lead: "A minimal theme for Hugo"
 description: "This is a not-much demo, built with Hugo. Explore it to see what not-much is offering."
 ---
 ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #### Menu items and custom links
 
@@ -97,6 +111,8 @@ The main menu can be customised as you prefer to add site-related locations (e.g
   url = "https://github.com/imgios"
 ```
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 #### Copyright
 
 Write your custom copyright notice in the footer by updating the `copyright` field:
@@ -105,11 +121,15 @@ Write your custom copyright notice in the footer by updating the `copyright` fie
 copyright = "© {year}"
 ```
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Built With
 
 * [Hugo](https://gohugo.io/) - The static site generator framework
 * [Bootstrap](https://getbootstrap.com/) - Free and open-source CSS library
 * [RedHat Mono Font](https://fonts.google.com/specimen/Red+Hat+Mono) - Used as theme font
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Contributing
 
@@ -124,10 +144,16 @@ If you have a suggestion that would make this better, please fork the repo and c
 4. Push to the Branch (`git push origin feat/cool-feature`)
 5. Open a Pull Request
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/imgios/not-much/tags). 
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
