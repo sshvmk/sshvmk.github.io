@@ -8,9 +8,9 @@
         <h1 class="text-uppercase">{{ .Title }}</h1>
         {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
         {{ $dateHuman := .Date | time.Format ":date_long" }}
-        <ul class="list-inline">
+        <ul class="list-inline small">
           <li class="list-inline-item">
-            <time class="small" datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+            <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
           </li>
           <li class="list-inline-item">
             📃 {{ printf "%d minutes" .ReadingTime }}
