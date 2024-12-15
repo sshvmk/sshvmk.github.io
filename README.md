@@ -52,6 +52,8 @@ $ git submodule add https://github.com/imgios/not-much.git themes/not-much
 
 The first option is quite limited as you won't be able to edit the templates if you wanted to. The second option, on the other hand, gives you the entire structure of the theme and allows you to customise it as you wish.
 
+Once done, update (or add) the `theme` parameter in your website configuration file to `theme = not-much`.
+
 ### Configuration
 
 You can update the website index, menu and copyright directly in your Hugo site `config.toml`.
