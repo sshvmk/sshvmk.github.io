@@ -17,20 +17,20 @@
     {{ end }}
     {{ $paginator := .Paginator }}
     {{ if gt $paginator.TotalPages 1 }}
-    <div aria-label="breadcrumb">
-      <ul class="list-inline breadcrumb">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
         {{ if $paginator.HasPrev }}
-        <li class="list-inline-item breadcrumb-item">
+        <li class="breadcrumb-item">
           <a href="{{ $paginator.Prev.URL }}">← back</a>
         </li>
         {{ end }}
         {{ if $paginator.HasNext }}
-        <li class="list-inline-item breadcrumb-item">
+        <li class="breadcrumb-item">
           <a href="{{ $paginator.Next.URL }}">next →</a>
         </li>
         {{ end }}
-      </ul>
-    </div>
+      </ol>
+    </nav>
     {{ end }}
   </div>
 {{ end }}
