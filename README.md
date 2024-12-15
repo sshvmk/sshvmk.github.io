@@ -58,7 +58,7 @@ Once done, update (or add) the `theme` parameter in your website configuration f
 
 You can update the website index, menu and copyright directly in your Hugo site `config.toml`.
 
-A reference can be found in (`exampleSite/config.toml`)[https://github.com/imgios/not-much/blob/dev/exampleSite/config.toml]
+A reference can be found in [`exampleSite/config.toml`](https://github.com/imgios/not-much/blob/dev/exampleSite/config.toml)
 
 #### Homepage
 
