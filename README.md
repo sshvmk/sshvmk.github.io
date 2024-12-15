@@ -56,38 +56,7 @@ The first option is quite limited as you won't be able to edit the templates if 
 
 You can update the website index, menu and copyright directly in your Hugo site `config.toml`.
 
-<details>
-    <summary>Reference config.toml</summary>
-
-```toml
-# Override these settings with your own
-languageCode = "en-us"
-baseURL = "https://imgios.github.io/thoughts/"
-title = "Giosuè Sulipano"
-copyright = "© {year}"
-
-themesDir = "../"
-theme = "not-much" 
-
-[markup]
-  [markup.highlight]
-    style = 'dracula'
-
-# Controls the navigation
-[[menu.main]]
-  identifier = "about"
-  name = "about"
-  title = "About"
-  url = "/"
-
-[[menu.main]]
-  identifier = "posts"
-  name = "posts"
-  title = "Posts"
-  url = "/posts"
-```
-
-</details>
+A reference can be found in (`exampleSite/config.toml`)[https://github.com/imgios/not-much/blob/dev/exampleSite/config.toml]
 
 #### Homepage
 
