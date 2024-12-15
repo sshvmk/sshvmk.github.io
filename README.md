@@ -54,7 +54,7 @@ The first option is quite limited as you won't be able to edit the templates if 
 
 ### Configuration
 
-You can update both the website menu and copyright directly in your Hugo site `config.toml`.
+You can update the website index, menu and copyright directly in your Hugo site `config.toml`.
 
 <details>
     <summary>Reference config.toml</summary>
@@ -88,6 +88,18 @@ theme = "not-much"
 ```
 
 </details>
+
+#### Homepage
+
+You can update the homepage by creating the index in `your-hugo-wesbite/content/_index.md` with the following structure:
+
+```yaml
+---
+heading: "not much 👋🏻"
+lead: "A minimal theme for Hugo"
+description: "This is a not-much demo, built with Hugo. Explore it to see what not-much is offering."
+---
+```
 
 #### Menu items and custom links
 
