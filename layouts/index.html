@@ -1,8 +1,8 @@
 {{ define "main" }}
 {{ $title := print .Site.Title " | " .Title}}
 {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
-<div class="splash-screen container mt-5 pt-5">
-    <div class="row h-100 mt-5 pt-5">
+<div class="container pt-5">
+    <div class="row mt-5 pt-5">
         <div class="col-md-8">
             {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
             <h1 class="display-1 text-uppercase lh-sm">{{ $title }}</h1>
