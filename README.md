@@ -52,6 +52,76 @@ $ git submodule add https://github.com/imgios/not-much.git themes/not-much
 
 The first option is quite limited as you won't be able to edit the templates if you wanted to. The second option, on the other hand, gives you the entire structure of the theme and allows you to customise it as you wish.
 
+### Configuration
+
+You can update both the website menu and copyright directly in your Hugo site `config.toml`.
+
+<details>
+    <summary>Reference config.toml</summary>
+
+```toml
+# Override these settings with your own
+languageCode = "en-us"
+baseURL = "https://imgios.github.io/thoughts/"
+title = "Giosuè Sulipano"
+copyright = "© {year}"
+
+themesDir = "../"
+theme = "not-much" 
+
+[markup]
+  [markup.highlight]
+    style = 'dracula'
+
+# Controls the navigation
+[[menu.main]]
+  identifier = "about"
+  name = "about"
+  title = "About"
+  url = "/"
+
+[[menu.main]]
+  identifier = "posts"
+  name = "posts"
+  title = "Posts"
+  url = "/posts"
+```
+
+</details>
+
+#### Menu items and custom links
+
+The main menu can be customised as you prefer to add site-related locations (e.g., your blog location) or your social links:
+
+```toml
+# Controls the navigation
+[[menu.main]]
+  identifier = "about"
+  name = "about"
+  title = "About"
+  url = "/"
+
+[[menu.main]]
+  identifier = "posts"
+  name = "posts"
+  title = "Posts"
+  url = "/posts"
+
+[[menu.main]]
+  identifier = "github"
+  name = "github"
+  title = "GitHub"
+  url = "https://github.com/imgios"
+```
+
+#### Copyright
+
+Write your custom copyright notice in the footer by updating the `copyright` field:
+
+```toml
+copyright = "© {year}"
+```
+
 ## Built With
 
 * [Hugo](http://www.dropwizard.io/1.0.2/docs/) - The static site generator framework
