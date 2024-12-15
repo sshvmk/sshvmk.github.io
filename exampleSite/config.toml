@@ -3,9 +3,8 @@
 # from a subdir of the theme
 themesDir = "../../"
 
-theme = "not-much"
-
 title = "not-much demo"
+theme = "not-much"
 languageCode = "en-us"
 baseURL = "https://example.org/"
 copyright = "© {year}"
@@ -16,21 +15,21 @@ copyright = "© {year}"
 
 [params]
 
-    # Navigation
-    [[menu.main]]
-        identifier = "about"
-        name = "about"
-        title = "About"
-        url = "/"
+# Navigation
+[[menu.main]]
+  identifier = "about"
+  name = "about"
+  title = "About"
+  url = "/"
 
-    [[menu.main]]
-        identifier = "blog"
-        name = "blog"
-        title = "Blog"
-        url = "/blog"
+[[menu.main]]
+  identifier = "blog"
+  name = "blog"
+  title = "Blog"
+  url = "/blog"
 
-    [[menu.main]]
-        identifier = "github"
-        name = "github"
-        title = "GitHub"
-        url = "https://github.com/imgios"
+[[menu.main]]
+  identifier = "github"
+  name = "github"
+  title = "GitHub"
+  url = "https://github.com/imgios"
