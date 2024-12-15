@@ -8,6 +8,7 @@ theme = "not-much"
 title = "not-much demo"
 languageCode = "en-us"
 baseURL = "https://example.org/"
+copyright = "© {year}"
 
 [markup]
   [markup.highlight]
