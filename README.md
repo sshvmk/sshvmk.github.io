@@ -1,6 +1,8 @@
 # Not Much
 
-`not-much` is a minimal Hugo theme that I use for my personal website. It doesn't have any fancy shortcode or useless feature. It's basic, simple and minimal.
+`not-much` is a minimal Hugo theme that I use for my personal website. It doesn't have any fancy shortcode or useless feature.
+
+**It's basic, simple and minimal.**
 
 ## Getting Started
 
