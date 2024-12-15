@@ -60,3 +60,11 @@ code {
   color: #fff !important;
   text-decoration: none !important;
 }
+
+.underline {
+	background-image: linear-gradient(to right, #257FAD, #257FAD);
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	background-size: 100% 2px;
+	text-decoration: none !important;
+}
