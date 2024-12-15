@@ -1,13 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap');
 
+:root {
+  --bg-color: #1E201E;
+  --primary: #697565;
+  --primary-variant: #5f695b;
+  --secondary: #ECDFCC;
+  --secondary-variant: #d4c9b8;
+}
+
 body, html, main {
   height: 100%;
   font-family: 'Red Hat Mono', monospace !important;
   font-size: .92em;
 }
 
+.body-dark {
+  background-color: var(--bg-color) !important;
+}
+
 ::selection {
-  background: #257FAD;
+  background: var(--primary);
 }
 
 .splash-screen {
@@ -24,11 +36,11 @@ nav a:hover, a:hover {
 
 a {
   font-weight: bold;
-  color: #FF5D73 !important;
+  color: var(--secondary-variant) !important;
 }
 
 a:hover {
-  color: #FF1A39 !important;
+  color: var(--secondary) !important;
 }
 
 @media (min-width: 1200px) {
@@ -56,13 +68,13 @@ code {
 }
 
 .tags a:hover {
-  background-color: #FF1A39 !important;
+  background-color: var(--primary) !important;
   color: #fff !important;
   text-decoration: none !important;
 }
 
 .underline {
-	background-image: linear-gradient(to right, #257FAD, #257FAD);
+	background-image: linear-gradient(to right, var(--secondary), var(--secondary));
 	background-position: bottom left;
 	background-repeat: no-repeat;
 	background-size: 100% 2px;
