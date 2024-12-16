@@ -40,7 +40,7 @@ Renders a menu for the given menu ID.
             {{- printf " %s=%q" $k $v | safeHTMLAttr }}
           {{- end }}
         {{- end -}}
-        {{- if eq $page.Section .Identifier }}
+        {{- if or ($page.IsMenuCurrent .Menu .) (eq $page.Section .Identifier) }}
         class="text-decoration-underline link-offset-3"
         {{- end }}
       >{{ $name }}</a>
