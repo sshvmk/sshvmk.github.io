@@ -95,13 +95,3 @@ blockquote {
   border-left-style: solid;
   border-left-width: 3px;
 }
-
-cite {
-  display: block;
-  margin-top: 8px;
-}
-
-cite:before {
-  content: "\2014";
-  margin-right: 8px;
-}
