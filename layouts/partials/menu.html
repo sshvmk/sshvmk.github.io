@@ -43,6 +43,9 @@ Renders a menu for the given menu ID.
         {{- if or ($page.IsMenuCurrent .Menu .) (eq $page.RelPermalink .URL) (eq $page.Section .Identifier) }}
         class="text-decoration-underline link-offset-3"
         {{- end }}
+        {{ if strings.HasPrefix .URL "http" }}
+          target="_blank" rel="noopener noreferrer"
+        {{ end }}
       >{{ $name }}</a>
       <!-- {{- with .Children }}
         <ul>
