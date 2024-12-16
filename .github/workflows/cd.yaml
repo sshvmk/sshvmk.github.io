@@ -3,7 +3,7 @@ name: Deploy theme example site
 on:
   push:
     branches:
-      - canary
+      - main
   workflow_dispatch:
 
 permissions:
