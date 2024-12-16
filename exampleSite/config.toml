@@ -17,9 +17,9 @@ copyright = "© {year}"
 
 # Navigation
 [[menu.main]]
-  identifier = "about"
-  name = "about"
-  title = "About"
+  identifier = "home"
+  name = "home"
+  title = "Home"
   url = "/"
 
 [[menu.main]]
