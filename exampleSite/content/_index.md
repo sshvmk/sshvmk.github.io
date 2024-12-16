@@ -1,5 +1,6 @@
 ---
 heading: "not much 👋🏻"
-lead: "A minimal theme for Hugo"
-description: "This is a not-much demo, built with Hugo. Explore it to see what not-much is offering."
+lead: "Basic, simple and minimal Hugo theme"
 ---
+
+This is a `not-much` theme demo, built with Hugo. Explore it to see what not-much is offering.

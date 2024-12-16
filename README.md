@@ -79,10 +79,14 @@ You can update the homepage by creating the index in `your-hugo-wesbite/content/
 ```yaml
 ---
 heading: "not much 👋🏻"
-lead: "A minimal theme for Hugo"
-description: "This is a not-much demo, built with Hugo. Explore it to see what not-much is offering."
+lead: "Basic, simple and minimal Hugo theme"
+---
+
+This is a `not-much` theme demo, built with Hugo. Explore it to see what not-much is offering.
 ---
 ```
+
+Using the page content for the description gives you the flexibility to extend the description by adding inline code, links, lists and more. The use of headings is not really intended there, but feel free to do so if you like.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
