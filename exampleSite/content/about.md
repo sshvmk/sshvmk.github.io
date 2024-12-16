@@ -1,9 +1,8 @@
----
-title: "About"
-date: 2024-12-16T11:30:00Z
-draft: false
-author: "Giosuè Sulipano"
----
++++
+title = 'About'
+date = 2024-12-16T11:30:04+01:00
+draft = false
++++
 
 👋🏻 Welcome to the demo page of Hugo's theme `not-much`!
 
