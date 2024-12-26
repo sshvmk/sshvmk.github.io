@@ -126,7 +126,7 @@ copyright = "© {year}"
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-#### Math rebndering with KaTeX
+#### Math rendering with KaTeX
 
 You can enable the math rendering by adding `math: true` in the page metadata.
 
