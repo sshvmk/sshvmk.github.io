@@ -7,7 +7,7 @@
     {{- end }}
   {{- end }}
 {{- end }}
-{{- with resources.Get "css/default.css" }}
+{{- with resources.Get "css/palette/default.css" }}
   {{- if eq hugo.Environment "development" }}
     <link rel="stylesheet" href="{{ .RelPermalink }}">
   {{- else }}
