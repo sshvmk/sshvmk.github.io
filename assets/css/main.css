@@ -57,8 +57,39 @@ kbd {
 .post article h4,
 .post article h5,
 .post article h6 {
+  font-size: 1.2rem;
   margin: 24px 0 4px 0;
   font-weight: bold;
+}
+
+.post article h1::before {
+  content: "# ";
+  color: var(--primary);
+}
+
+.post article h2::before {
+  content: "## ";
+  color: var(--primary);
+}
+
+.post article h3::before {
+  content: "### ";
+  color: var(--primary);
+}
+
+.post article h4::before {
+  content: "#### ";
+  color: var(--primary);
+}
+
+.post article h5::before {
+  content: "###### ";
+  color: var(--primary);
+}
+
+.post article h6::before {
+  content: "###### ";
+  color: var(--primary);
 }
 
 .breadcrumb-item+.breadcrumb-item::before {
