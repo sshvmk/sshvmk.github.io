@@ -1,5 +1,4 @@
 ---
-heading: "not much 👋🏻"
 lead: "Basic, simple and minimal Hugo theme"
 ---
 
