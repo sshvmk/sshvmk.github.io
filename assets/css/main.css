@@ -131,7 +131,7 @@ figure img {
 figure h4 {
   margin-bottom: 1em;
   padding-left: 2rem !important;
-  font-size: 1rem;
+  font-size: 1rem !important;
   position: relative;
   overflow: hidden;
 }
