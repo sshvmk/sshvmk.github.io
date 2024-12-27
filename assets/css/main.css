@@ -45,6 +45,14 @@ code {
   user-select: all;
 }
 
+.highlight > div {
+  padding: 0 1em;
+}
+
+.highlight > pre  {
+  padding: 1em;
+}
+
 kbd {
   background-color: var(--bg-variant) !important;
   font-family: 'Red Hat Mono', monospace !important;
