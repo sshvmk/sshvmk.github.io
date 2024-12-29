@@ -139,6 +139,12 @@ Write your custom copyright notice in the footer by updating the `copyright` fie
 copyright = "© {year}"
 ```
 
+The theme notice `// powered by hugo and imgios/not-much` can be enabled (or disabled) by setting the `showThemeNotice` boolean parameter:
+
+```toml
+showThemeNotice = true | false
+```
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #### Math rendering with KaTeX

@@ -19,6 +19,7 @@ copyright = "© {year}"
 
 [params]
 palette = "default"
+showThemeNotice = true
 
 # Navigation
 [menu]
