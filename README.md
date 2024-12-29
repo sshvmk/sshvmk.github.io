@@ -142,7 +142,7 @@ copyright = "© {year}"
 The theme notice `// powered by hugo and imgios/not-much` can be enabled (or disabled) by setting the `showThemeNotice` boolean parameter:
 
 ```toml
-showThemeNotice = true | false
+showThemeNotice = true # or false
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
