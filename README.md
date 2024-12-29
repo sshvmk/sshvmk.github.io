@@ -116,6 +116,21 @@ The main menu can be customised as you prefer to add site-related locations (e.g
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+#### Color Palette
+
+This theme lets you select the color palette to use in your Hugo website. The default is a black and red-ish, but new palettes can be easily added.
+
+Use the `palette` site param to specify the palette name to use. If this param is not specified, the theme will load the default automatically.
+
+```toml
+[params]
+palette = "default"
+```
+
+New palettes can be stored under `assets/css/palette`.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 #### Copyright
 
 Write your custom copyright notice in the footer by updating the `copyright` field:
