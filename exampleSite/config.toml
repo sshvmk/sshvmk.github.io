@@ -18,6 +18,7 @@ copyright = "© {year}"
 
 
 [params]
+palette = "default"
 
 # Navigation
 [menu]
