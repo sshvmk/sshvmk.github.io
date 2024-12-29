@@ -28,11 +28,11 @@ nav a:hover, a:hover {
 
 a {
   font-weight: bold;
-  color: var(--secondary-variant) !important;
+  color: var(--primary-variant) !important;
 }
 
 a:hover {
-  color: var(--secondary) !important;
+  color: var(--primary) !important;
 }
 
 @media (min-width: 1200px) {
@@ -72,32 +72,32 @@ kbd {
 
 .post article h1::before {
   content: "# ";
-  color: var(--primary);
+  color: var(--secondary);
 }
 
 .post article h2::before {
   content: "## ";
-  color: var(--primary);
+  color: var(--secondary);
 }
 
 .post article h3::before {
   content: "### ";
-  color: var(--primary);
+  color: var(--secondary);
 }
 
 .post article h4::before {
   content: "#### ";
-  color: var(--primary);
+  color: var(--secondary);
 }
 
 .post article h5::before {
   content: "###### ";
-  color: var(--primary);
+  color: var(--secondary);
 }
 
 .post article h6::before {
   content: "###### ";
-  color: var(--primary);
+  color: var(--secondary);
 }
 
 .breadcrumb-item+.breadcrumb-item::before {
