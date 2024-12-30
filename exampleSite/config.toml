@@ -18,7 +18,7 @@ copyright = "Sample custom notice © {year}"
 
 
 [params]
-palette = "default"
+palette = "catpuccin"
 showThemeNotice = true
 
 # Navigation
