@@ -48,5 +48,5 @@ showThemeNotice = true
     identifier = "github"
     name = "github"
     title = "GitHub"
-    url = "https://github.com/imgios"
+    url = "https://github.com/imgios/not-much"
     weight = 4
