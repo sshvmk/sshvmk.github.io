@@ -7,9 +7,9 @@ homepage = 'https://github.com/imgios/not-much'
 
 demosite = 'https://imgios.github.io/not-much/'
 
-tags = ['blog', 'website']
+tags = ['blog', 'website', 'simple', 'dark', 'minimal', 'responsive']
 
-features = ['blog']
+features = ['blog', 'reponsive', 'theme-palettes']
 
 [author]
   name = 'Giosuè Sulipano'
