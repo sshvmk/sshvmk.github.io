@@ -6,6 +6,12 @@ keywords: ["gohugo", "hugo", "go", "blog"]
 tags: ["hugo", "themes"]
 ---
 
+## Details
+
+{{< details summary="See the details" >}}
+This is a **bold** word.
+{{< /details >}}
+
 ## Images
 
 {{< figure src="https://images.unsplash.com/photo-1560032779-0a8809186efd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" title="Dave Herring" >}}
