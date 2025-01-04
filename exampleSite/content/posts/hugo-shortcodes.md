@@ -12,6 +12,14 @@ tags: ["hugo", "themes"]
 This is a **bold** word.
 {{< /details >}}
 
+## Highlight
+
+{{< highlight go-html-template >}}
+{{ range .Pages }}
+  <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+{{ end }}
+{{< /highlight >}}
+
 ## Images
 
 {{< figure src="https://images.unsplash.com/photo-1560032779-0a8809186efd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" title="Dave Herring" >}}
