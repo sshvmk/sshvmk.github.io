@@ -135,7 +135,7 @@ figure img {
 
 figure h4 {
   margin-bottom: 1em;
-  padding-left: 2rem !important;
+  /* padding-left: 2rem !important; */
   font-size: 0.85rem !important;
   font-weight: lighter !important;
   position: relative;
