@@ -137,8 +137,10 @@ figure h4 {
   margin-bottom: 1em;
   padding-left: 2rem !important;
   font-size: 1rem !important;
+  font-weight: lighter !important;
   position: relative;
   overflow: hidden;
+  opacity: 0.9;
 }
 
 figure h4::before {
