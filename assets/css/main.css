@@ -180,3 +180,7 @@ blockquote {
     margin-top: 1rem;
   }
 }
+
+.twitter-tweet {
+  margin: 0 auto 0 auto;
+}
