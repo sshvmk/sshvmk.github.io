@@ -181,6 +181,7 @@ blockquote {
   }
 }
 
-.twitter-tweet {
-  margin: 0 auto 0 auto;
+.twitter-tweet, .instagram-media {
+  margin-right: auto !important;
+  margin-left: auto !important;
 }
