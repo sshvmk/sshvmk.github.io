@@ -46,6 +46,13 @@ code {
   user-select: all;
 }
 
+code:not(.highlight *) {
+  color: black !important;
+  background-color: var(--secondary);
+  padding: .2em .4em;
+  border-radius: 6px;
+}
+
 .highlight > div {
   padding: 0 1em;
 }
