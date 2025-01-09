@@ -42,6 +42,22 @@ a:hover {
   }
 }
 
+table {
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+th, td {
+  padding: .5rem;
+  text-align: left;
+}
+
+th {
+  font-weight: bold;
+  background-color: var(--bg-variant);
+}
+
 code {
   user-select: all;
 }
