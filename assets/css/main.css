@@ -58,6 +58,10 @@ code:not(.highlight *) {
   padding: 1em;
 }
 
+mark {
+  background-color: var(--primary-variant) !important;
+}
+
 kbd {
   background-color: var(--bg-variant) !important;
   font-family: 'Red Hat Mono', monospace !important;
