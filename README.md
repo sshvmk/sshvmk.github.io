@@ -2,7 +2,7 @@
 
 # Not Much
 
-<img src="https://raw.githubusercontent.com/imgios/not-much/dev/images/tn.png" />
+<img src="https://raw.githubusercontent.com/imgios/not-much/main/images/tn.png" />
 
 `not-much` is a minimal Hugo theme that I use for my personal website. It doesn't have any fancy shortcode or useless feature.
 
