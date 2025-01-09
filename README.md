@@ -1,6 +1,6 @@
 <a id="readme-top"></a>
 
-# Not Much
+# not much
 
 <img src="https://raw.githubusercontent.com/imgios/not-much/main/images/tn.png" />
 
