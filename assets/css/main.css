@@ -58,6 +58,10 @@ th {
   background-color: var(--bg-variant);
 }
 
+td {
+  border-bottom: 2px solid var(--bg-variant) !important;
+}
+
 code {
   user-select: all;
 }
