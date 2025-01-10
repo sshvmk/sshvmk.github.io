@@ -121,6 +121,11 @@ The main menu can be customised as you prefer to add site-related locations (e.g
 
 This theme lets you select the color palette to use in your Hugo website. The default is a black and red-ish, but new palettes can be easily added.
 
+Available Color Palettes:
+- Default
+- Catpuccin
+- Dracula
+
 Use the `palette` site param to specify the palette name to use. If this param is not specified, the theme will load the default automatically.
 
 ```toml
