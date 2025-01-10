@@ -8,6 +8,8 @@
 
 **It's basic, simple and minimal.**
 
+> 🧪 Demo: https://imgios.github.io/not-much/
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Getting Started
