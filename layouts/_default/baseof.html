@@ -3,15 +3,14 @@
 <head>
   {{ partial "head.html" . }}
 </head>
+{{ $theme := "dark" }}
+{{- with .Site.Params.theme }}
+  {{ $theme = . }}
+{{- end }}
 <body
-  {{- with .Site.Params.theme }}
-    {{- if eq . "dark" }}
-      class="text-light"
-    {{- else }}
-      class="text-dark"
-    {{- end }}
-  {{- end }}
-  {{- if not .Site.Params.theme }}
+  {{- if eq $theme "dark" }}
+    class="dark text-light"
+  {{- else }}
     class="text-dark"
   {{- end }}
 >
