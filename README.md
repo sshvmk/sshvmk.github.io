@@ -121,19 +121,25 @@ The main menu can be customised as you prefer to add site-related locations (e.g
 
 #### Color Palette
 
-This theme lets you select the color palette to use in your Hugo website. The default is a black and red-ish, but new palettes can be easily added.
+This theme lets you select both the theme style and color palette to use in your Hugo website. The default is a dark black and red-ish, but new palettes can be easily added.
 
 Available Color Palettes:
 - Default
 - Catpuccin
 - Dracula
 
-Use the `palette` site param to specify the palette name to use. If this param is not specified, the theme will load the default automatically.
+Use the `theme` site param to specify the theme style and `palette` site param to specify the palette name to use. If those param are not specified, the theme will load the default automatically.
 
 ```toml
 [params]
+theme = "dark"
 palette = "default"
 ```
+
+| Param | Allowed values |
+|-------|----------------|
+| theme | `light, dark` |
+| palette | `catpuccin,dracula,default,custom-palette-name` <br/><sub> where `custom-palette-name` is available as `assets/css/palette/custom-palette-name.css` </sub> |
 
 New palettes can be stored under `assets/css/palette`.
 
