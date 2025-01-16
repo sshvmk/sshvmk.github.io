@@ -4,9 +4,6 @@ body, html, main {
   height: 100%;
   font-family: 'Red Hat Mono', monospace !important;
   font-size: .95em;
-}
-
-.body-dark {
   background-color: var(--bg-color) !important;
 }
 
