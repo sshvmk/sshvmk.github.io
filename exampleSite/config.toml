@@ -18,6 +18,7 @@ copyright = "Sample custom notice © {year}"
 
 
 [params]
+theme = "dark"
 palette = "catpuccin"
 showThemeNotice = true
 

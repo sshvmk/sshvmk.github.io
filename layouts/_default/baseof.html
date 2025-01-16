@@ -3,7 +3,18 @@
 <head>
   {{ partial "head.html" . }}
 </head>
-<body class="body-dark text-light">
+<body
+  {{- with .Site.Params.theme }}
+    {{- if eq . "dark" }}
+      class="body-dark text-light"
+    {{- else }}
+      class="text-dark"
+    {{- end }}
+  {{- end }}
+  {{- if not .Site.Params.theme }}
+    class="text-dark"
+  {{- end }}
+>
   <!-- <header>
     {{ partial "header.html" . }}
   </header> -->
