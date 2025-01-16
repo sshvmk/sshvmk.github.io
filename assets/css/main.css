@@ -75,6 +75,7 @@ code {
 
 code:not(.highlight *) {
   color: var(--secondary);
+  font-weight: bold;
 }
 
 .highlight > div {
