@@ -65,10 +65,6 @@ td {
   border-bottom: 2px solid var(--bg-variant) !important;
 }
 
-/* ul > li:has(+ input[type=checkbox]) {
-  list-style-type: none !important;
-} */
-
 ul > li:has(input[type=checkbox]) {
   list-style-type: none;
 }
