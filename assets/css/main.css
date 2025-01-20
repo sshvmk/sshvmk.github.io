@@ -42,29 +42,30 @@ a:hover {
   }
 }
 
-table {
+table:not(.gist-data *) {
   border-collapse: collapse;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
 @media (min-width: 1200px) {
-  table {
+  table:not(.gist-data *) {
     width: 100%;
   }
 }
 
-th, td {
+th:not(.gist-data *),
+td:not(.gist-data *) {
   padding: .5rem;
   text-align: left;
 }
 
-th {
+th:not(.gist-data *) {
   font-weight: bold;
   background-color: var(--bg-variant);
 }
 
-td {
+td:not(.gist-data *) {
   border-bottom: 2px solid var(--bg-variant) !important;
 }
 
