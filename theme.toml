@@ -5,7 +5,7 @@ description = 'A minimal blog theme for Hugo'
 
 homepage = 'https://github.com/imgios/not-much'
 
-demosite = 'https://imgios.github.io/not-much/'
+demosite = 'https://giosuesulipano.it/not-much/'
 
 tags = ['blog', 'website', 'simple', 'dark', 'minimal', 'responsive']
 
