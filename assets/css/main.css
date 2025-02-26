@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital,wght@0,300..700;1,300..700&display=swap');
 
 body {
   background-color: var(--bg-color) !important;
@@ -6,8 +7,11 @@ body {
 
 body, main {
   height: 100%;
-  font-family: 'Red Hat Mono', monospace !important;
+  font-family: 'Literata', serif !important;
+  font-optical-sizing: auto;
+  font-style: normal;
   font-size: .95em;
+  font-weight: normal;
 }
 
 ::selection {
@@ -28,7 +32,7 @@ nav a:hover, a:hover {
 }
 
 a {
-  font-weight: bold;
+  font-weight: 600;
   color: var(--primary-variant) !important;
 }
 
@@ -75,11 +79,12 @@ ul > li:has(input[type=checkbox]) {
 
 code {
   user-select: all;
+  font-family: 'Red Hat Mono', serif !important;
 }
 
 code:not(.highlight *) {
   color: var(--secondary);
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .highlight > div {
