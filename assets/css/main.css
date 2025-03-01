@@ -78,13 +78,13 @@ ul > li:has(input[type=checkbox]) {
 }
 
 code {
-  user-select: all;
   font-family: 'Red Hat Mono', serif !important;
 }
 
 code:not(.highlight *) {
   color: var(--secondary);
   font-weight: 600;
+  user-select: all;
 }
 
 .highlight > div {
