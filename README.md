@@ -167,6 +167,16 @@ You can enable the math rendering by adding `math: true` in the page metadata.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+#### Posts Summary in the Posts list
+
+You can enable the posts summary rendering in the Posts list by configuring the `showPostsSummary` parameter:
+
+```toml
+showPostsSummary = true
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Built With
 
 * [Hugo](https://gohugo.io/) - The static site generator framework
