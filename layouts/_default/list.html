@@ -12,7 +12,11 @@
       {{ $dateHuman := .Date | time.Format ":date_long" }}
       <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
       <h2 class="h5"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-      <!-- {{ .Summary }} -->
+      {{ if .Site.Params.showPostsSummary }}
+      <p>
+        {{ .Summary }}
+      </p>
+      {{ end }}
     </div>
     {{ end }}
     {{ $paginator := .Paginator }}
