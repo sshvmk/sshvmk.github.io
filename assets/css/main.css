@@ -230,3 +230,7 @@ blockquote {
   margin-right: auto !important;
   margin-left: auto !important;
 }
+
+.post-summary {
+  margin: 0;
+}

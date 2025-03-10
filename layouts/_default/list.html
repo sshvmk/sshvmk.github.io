@@ -13,7 +13,7 @@
       <time class="small" datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
       <h2 class="h5"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
       {{ if .Site.Params.showPostsSummary }}
-      <p>
+      <p class="small opacity-75 post-summary">
         {{ .Summary }}
       </p>
       {{ end }}
