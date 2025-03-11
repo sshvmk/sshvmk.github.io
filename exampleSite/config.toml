@@ -3,18 +3,18 @@
 # from a subdir of the theme
 themesDir = "../../"
 
-title = "not-much demo"
+title = ""
 theme = "not-much"
 languageCode = "en-us"
 baseURL = "https://example.org/"
 copyright = "Sample custom notice © {year}"
 
 [markup]
-  [markup.highlight]
-    style = 'dracula'
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+[markup.highlight]
+style = 'dracula'
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
 
 
 [params]
@@ -25,30 +25,30 @@ showPostsSummary = true
 
 # Navigation
 [menu]
-  [[menu.main]]
-    identifier = "home"
-    name = "home"
-    title = "Home"
-    url = "/"
-    weight = 1
-  
-  [[menu.main]]
-    identifier = "posts"
-    name = "posts"
-    title = "posts"
-    url = "/posts"
-    weight = 3
-  
-  [[menu.main]]
-    identifier = "about"
-    name = "about"
-    title = "About"
-    url = "/about"
-    weight = 2
-  
-  [[menu.main]]
-    identifier = "github"
-    name = "github"
-    title = "GitHub"
-    url = "https://github.com/imgios/not-much"
-    weight = 4
+[[menu.main]]
+identifier = "home"
+name = "home"
+title = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+identifier = "posts"
+name = "posts"
+title = "posts"
+url = "/posts"
+weight = 3
+
+[[menu.main]]
+identifier = "about"
+name = "about"
+title = "About"
+url = "/about"
+weight = 2
+
+[[menu.main]]
+identifier = "github"
+name = "github"
+title = "GitHub"
+url = "https://github.com/sshvmk/"
+weight = 4

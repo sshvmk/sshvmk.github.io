@@ -1,7 +1,7 @@
-name = 'not-much'
+name = 'shivam-blog'
 license = 'MIT'
 licenselink = 'https://github.com/imgios/not-much/blob/main/LICENSE'
-description = 'A minimal blog theme for Hugo'
+description = 'A blog by Shivam Kushwaha'
 
 homepage = 'https://github.com/imgios/not-much'
 
@@ -12,5 +12,5 @@ tags = ['blog', 'website', 'simple', 'dark', 'minimal', 'responsive']
 features = ['blog', 'reponsive', 'theme-palettes']
 
 [author]
-  name = 'Giosuè Sulipano'
-  homepage = 'https://giosuesulipano.it'
+name = 'Shivam Kushwaha'
+homepage = 'https://giosuesulipano.it'
